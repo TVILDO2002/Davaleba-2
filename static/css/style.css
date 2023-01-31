@@ -1,0 +1,167 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+/* reset */
+
+body{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+}
+header{
+    border-bottom: 1px solid #000000;
+}
+a{
+    text-decoration: none;
+}
+li{
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: capitalize;
+    margin-top: 28px;
+}
+.first-item, .second-item, .third-item{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    margin-right: 120px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.first-item{
+    margin-left: 537px;
+}
+.card-1{
+    margin-left: 126px;
+    margin-right: 111px;
+}
+.card-2{
+    margin-right: 111px;
+}
+.card-1, .card-2, .card-3{
+    display: inline-block;
+    width: 333px;
+    height: 534px;
+    margin-top: 160px;
+}
+.main-box-1, .main-box-2, .main-box-3{
+    border: 1px solid #000000;
+    border-radius: 2px;
+    width: 333px;
+    height: 481px;
+}
+.main-img{
+    margin: 15px;
+}
+.main-header-2{
+    margin: 5px 41px 14px 26px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.main-paragraph{
+    margin: 18px 24px 22px 26px ;
+}
+.main-button{
+    border: 1px solid #000000;
+    border-radius: 4px;
+    margin-left: 216px;
+    margin-top: 23px;
+    font-size: 12px;
+    line-height: 18px;
+    width: 118px;
+    height: 30px;
+}
+.main-box-contact{
+    width: 656px;
+    height: 347px;
+    margin-left: 175px;
+    margin-top: 183px;
+}
+.main-header-contact{
+    margin-left: 434px;
+    font-size: 40px;
+    line-height: 60px;
+    text-transform: capitalize;
+}
+.main-contact-li-1{
+    text-decoration-line: underline;
+    text-transform: lowercase;
+    margin-top: 117px;
+}
+.main-box-about{
+    width: 775px;
+    height: 443px;
+    margin-left: 175px;
+    margin-top: 183px;
+    }
+
+.main-header-about{
+    width: 406px;
+    height: 60px;
+    font-size: 40px;
+    line-height: 60px;
+    margin-left: 342px;
+}
+.main-text-about{
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: capitalize;
+    margin-top: 117px;
+    margin-bottom: 108px;
+}
+.main-addres-about{
+    font-size: 25px;
+    line-height: 38px;
+    text-transform: capitalize;
+}
